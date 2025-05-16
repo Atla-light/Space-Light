@@ -1,0 +1,82 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    background-color: rgba(3, 33, 114, 0.75);
+    color:black;
+    margin:20px;
+    font-size: 20px;
+    }
+header h1{
+    background-color: #0b0c2a;
+    border-radius: 5px;
+    text-shadow:0 2px rgb(34, 179, 247);
+    color: white;
+    text-align: center;
+    margin:auto;
+    font-size: 45px;
+    padding:10px
+}
+header p{
+    font-size:16px;
+    color: rgb(22, 21, 21);
+    text-align: center;
+}
+nav{
+    background-color: black;
+    border-radius: 20px;
+    margin:12px;
+    padding:10px;
+    text-align: center;
+}
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding:0;
+}
+nav ul li{
+    display: inline;
+    margin:2px 15px;
+}
+nav ul li a{
+    color:white;
+    text-decoration: none;
+    font-size: 16px;
+    transition:color 0.3s;
+}
+nav ul li a:hover{
+    color:#023e4d;
+}
+section p b{
+    font-size:36px;
+    padding: 3px;
+}
+main section article{
+    vertical-align: 5px;
+    font-size:17px;
+    padding: 7px;
+}
+.choose h3 {
+    font-size:36px;
+    padding:3px;
+}
+.choose p{
+    vertical-align: 5px;
+    font-size:17px;
+    padding: 7px;
+}
+#offer{
+    padding: 8px;
+    margin:8px;
+    list-style: none;
+}
+#offer li{
+    color:#e0f7ff;
+    padding:2px;
+    list-style: square;
+}
+footer{
+    text-align:center;
+    color:rgb(19, 18, 18);
+}

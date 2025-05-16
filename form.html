@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  	<head>
+		<link rel="stylesheet" href="css/form.css">
+		<title>forms</title>
+	</head>
+<body>
+<h1>Thank you for choosing us!</h1>
+<div>
+	<p>
+		<b><h3>Enter your details :</h3></b>
+	</p>
+</div>
+<main>
+<div>
+	<form action="">
+		<label for="name">Enter your name:  </label>
+		<input type="text" id="name" required >
+		<br><br>
+		<label for="number">Enter your contact number:  </label>
+		<input type="tel" id="number" required>
+		<br><br>
+		<label for="email">Enter your email:  </label>
+		<input type="email" id="email" required>
+		<br><br>
+		<label for="address">Enter your Address:  </label>
+		<input type="text" id="address" required>
+		<br><br>
+		<label for="service"> Select service:  </label>
+		<select id="service" name="service">
+			<option value="internet">Satellite Internet connectivity</option>
+			<option value="data transfer">Secure data transfer</option>
+			<option value="remote">Remote office connecivity</option>
+			<option value="other">other</option>
+		</select>
+		<br><br>
+		<b>Select your purpose:</b>
+		<br>
+		<input type="radio" name="combination" id="edu" value="Education" required>
+		<label for="edu">Education</label>
+		<br>
+		<input type="radio" name="combination" id="emp" value="Work">
+		<label for="emp">Work</label>
+		<br>
+		<input type="radio" name="combination" id="per" value="personal use">
+		<label for="per">Personal use</label>
+		<br>
+		<input type="radio" name="combination" id="other" value="other">
+		<label for="other">other</label>
+		<br><br>
+		<label for="date">Select date for installation</label>
+		<input type="date" id="date" name="date" required>
+		<br><br>
+		<label for="specs">Enter your specifications or requirements:</label>
+		<br><br>
+		<textarea id="specs" name="specs" rows="10" cols="100" required>
+		</textarea>
+		<br><br>
+		<input type="submit" valu="submit">	
+	</form>
+</div>
+</main>
+</body>
+<br>
+<nav>
+	<ul>
+		<li><a href="home.html"><strong>Home</strong></a></li>
+		<li><a href="services.html"><strong>Services</strong></a></li>
+		<li><a href="about.html"><strong>About us</strong></a></li>
+		<li><a href="index.html"><strong>back</strong></a></li>
+	</ul>
+	</nav>
+	<footer>
+	&copy; 2025 Space light. All Rights reserved.
+	</footer>
+</html>
