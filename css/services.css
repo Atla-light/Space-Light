@@ -1,3 +1,13 @@
+header h1{
+    text-align: center;
+    padding:10px;
+    margin: auto;
+    margin-bottom: 16px;
+    color: white;
+    background-color:#0b0c2a;
+    border-radius: 10px;
+    text-shadow:0 2px rgb(70, 92, 141);
+}    
 body{
     background-color: rgba(3, 33, 114, 0.75);
     color:black;
@@ -19,38 +29,76 @@ h3{
     font-size:25px;
     color: rgb(0, 0, 0);
 }
-
-li {
-    margin: 0;
-    padding: 0;
-}
-nav{
+.link nav{
     background-color:black;
     text-align: center;
-    margin:30px;
+    margin:14px;
     border-radius: 17px;
-    padding:10px;
+    padding:0;
 }
-nav ul{
+.link nav ul{
     list-style: none;
     margin: 0;
     padding: 0;
 }
-nav ul li{
+.link ul li{
     display: inline;
+    margin: 2px auto ;
+    padding: 12px;
+    width: 100%;
+}
+.link ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    transition:0.3s;
+}
+.link ul li a:hover{
+    color:#023e4d;
+}
+
+@media screen and (max-width:778px) {
+    header h1{
+    font-size:30px;
+}    
+}
+@media screen and (max-width:712px){
+    ul {
+    display: block;    
+    padding: 10px;
+    margin: 3px;
+    list-style: none;
+}
+ul li{
+    padding: 5px;
+}
+ ul li strong{
+    padding:0;
+    display: block;
+ }
+    .link nav{
+    background-color:black;
+    border-radius: 17px;
+}
+    .link ul{
+    list-style: disc;
     margin: 0;
     padding: 0;
 }
-nav ul li a{
-    color: white;
-    text-decoration: none;
-    font-size:17px;
-    transition:0.3s;
+    .link ul li{
+    font-size: 10px;    
+    display: inline-block;
+    margin: 2px 0;
+    padding: 10px;
 }
-nav ul li a:hover{
-    color:#023e4d;
 }
-footer{
-    text-align: center;
-    color: rgb(15, 15, 15);
+@media screen and (max-width:540px){
+ header h1{
+    font-size: 32px;
+ }   
+}
+@media screen and (max-width:540px){
+    body{
+        margin:6px;
+    }
 }

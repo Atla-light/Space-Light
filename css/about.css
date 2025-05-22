@@ -15,33 +15,10 @@ h3{
     text-decoration: none;
     color: rgb(238, 238, 245);
 }
-nav{
-    background-color:black;
-    text-align: center;
-    margin:30px;
-    border-radius: 17px;
-    padding:10px;
-}
-nav ul{
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
+@media screen and (max-width:512px) {
 nav ul li{
-    display: inline;
-    margin: 10px;
-    padding: 15px;
-}
-nav ul li a{
-    color: white;
-    text-decoration: none;
-    font-size: 17px;
-    transition:0.3s;
-}
-nav ul li a:hover{
-    color:#023e4d;
-}
-footer{
-    color: darkgrey;
-    font-size: 20px
+    display: block;
+    margin: 2px 0;
+    padding: 10px;
+} 
 }
