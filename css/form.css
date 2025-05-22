@@ -8,6 +8,7 @@ body header h1{
     text-align: center;
     padding:10px;
     margin: auto;
+    width:100%;
     color: white;
     background-color:#0b0c2a;
     border-radius: 10px;
@@ -29,7 +30,8 @@ textarea{
         font-size:36px;
      }
      body{
-        margin:18px auto;
+        margin:auto;
+        box-sizing:border-box;
      }
      .res{
         width: 75%;
